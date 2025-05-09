@@ -1,7 +1,6 @@
 export default function HeroSection() {
     return (
       <section className="relative bg-gray-900 text-white min-h-[80vh] flex items-center justify-center px-6">
-        {/* Background Image Layer */}
         <div className="absolute inset-0">
           <img
             src="https://images.pexels.com/photos/45113/pexels-photo-45113.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -11,7 +10,6 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
   
-        {/* Content Layer */}
         <div className="z-10 text-center max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
             Turn Unused Software Licenses into Instant Cash
