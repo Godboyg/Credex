@@ -42,7 +42,7 @@ export default function ContactForm() {
       className="bg-gray-100 py-16 px-6"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
+      viewport={{ once: false }}
       transition={{ duration: 3 }}
     >
       <div className="max-w-3xl mx-auto">
