@@ -62,7 +62,6 @@ export default function ContactForm() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
-          {/* Form fields */}
           {[
             { label: 'Name', name: 'name', type: 'text' },
             { label: 'Email', name: 'email', type: 'email' },
