@@ -3,7 +3,7 @@ import axios from 'axios';
 import { GoogleGenAI } from "@google/genai";
 import { p } from 'framer-motion/client';
 
-const api = import.meta.VITE_API_KEY;
+const api = import.meta.env.VITE_API_KEY;
 
 const ai = new GoogleGenAI({ apiKey: api });
 
